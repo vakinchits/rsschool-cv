@@ -1,0 +1,121 @@
+html {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	color: #3d3d3d;
+	line-height: 1.6;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+mark {
+	background-color: #deeeff;
+  padding: 0 5px;
+}
+
+address {
+	font: inherit;
+}
+
+a,
+a:visited {
+	color: #106495;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.cv {
+	margin: 30px 0 50px 0;
+}
+
+.section {
+	margin-bottom: 30px;
+}
+
+.section__name {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.section__title {
+  font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+	letter-spacing: -.5px;
+	border-bottom: 1px solid #ccc;
+}
+
+.section__name .section__title {
+	font-size: 45px;
+	margin: 0 0 5px 0;
+	text-transform: capitalize;
+	letter-spacing: -.5px;
+	border-bottom: none;
+}
+
+.section__name .section__content {
+	margin-left: 40px;
+}
+
+.section__name .section__avatar {
+	max-width: 330px;
+	height: auto;
+}
+
+.section__content span {
+	font-weight: 700;
+}
+
+.content-code {
+	background: #f3f9ff;
+	padding: 15px;
+}
+
+.footer {
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+
+.skills li {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.footer__links {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+}
+
+.footer__link {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.footer__link:first-child {
+	margin-left: 0;
+}
+
+.footer__link-youtube img {
+	width: 30px;
+	height: auto;
+}
+
+.footer__link-rs img {
+	width: 70px;
+	height: auto;
+}
