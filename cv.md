@@ -50,4 +50,4 @@ Brest State Technical University, Electronics and Mechanics Faculty @2003
 ## English Level
 C1
 
-_vakinchits ©2022_
+_vakinchits ©2023_
