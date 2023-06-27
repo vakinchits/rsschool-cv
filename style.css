@@ -1,0 +1,172 @@
+/* GENERAL AND SEMANTICS */
+
+body {
+	margin: 0 0;
+	padding: 15px 0;
+	font-family: 'Inter', sans-serif;
+	font-weight: 200;
+	color: hsla(0, 0%, 100%, 1);
+	background-color: hsla(0, 0%, 0%, 0.9);
+}
+
+ul,
+li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+address {
+	font: inherit;
+}
+
+a {
+	color: hsla(30, 100%, 45%, 1);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	font-size: 12px;
+}
+
+/* CONTAINER */
+
+.container {
+	max-width: 740px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/* HEADER */
+
+.header-item {
+	display: inline-flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 15px;
+	margin-bottom: 15px;
+}
+
+.avatar-image-block {
+	width: 290px;
+	max-width: 50%;
+	border-radius: 15px;
+}
+
+.avatar-text-block {
+	display: block;
+}
+
+.avatar-title {
+	margin: 0 0;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: -2px;
+}
+
+.avatar-content {
+	font-size: 25px;
+	font-weight: 200;
+	letter-spacing: -1px;
+	color: hsla(0, 0%, 100%, 0.7);
+}
+
+/* NAVIGATION */
+
+.navigation-block {
+	margin-bottom: 15px;
+}
+
+.navigation-line {
+	display: inline-flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 15px 30px;
+}
+
+.nav-item {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.nav-item a {
+	color: hsla(0, 0%, 100%, 0.7);
+}
+
+/* SECTIONS */
+
+.section-item {
+	padding: 15px;
+	border-radius: 15px;
+	margin-bottom: 15px;
+	background-color: hsla(0, 0%, 0%, 0.3)
+}
+
+.section-title {
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: -0.5px;
+	text-transform: capitalize;
+	margin: 0 0 10px 0;
+
+}
+
+.section-content {
+	font-size: 14px;
+	letter-spacing: -0.2px;
+	line-height: 1.6;
+	color: hsla(0, 0%, 100%, 0.6);
+}
+
+.section-content span {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.contacts {
+	font-weight: 700;
+}
+
+.skills {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 9px;
+}
+
+.skills li {
+	font-weight: 400;
+	color: hsla(0, 0%, 100%, 1);
+	background-color: hsla(205, 35%, 15%, 1);
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+
+.code-block {
+	font-size: 14px;
+	color: hsla(30, 100%, 45%, 1);
+	background: hsla(205, 35%, 15%, 0.5);
+	padding: 15px;
+	border-radius: 5px;
+}
+
+/* FOOTER */
+
+.footer-links {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.footer-rs-logo img {
+	width: 70px;
+	height: auto;
+	background-color: hsla(0, 0%, 100%, 1);
+	padding: 5px;
+	border-radius: 5px;
+}
