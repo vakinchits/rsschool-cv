@@ -150,6 +150,28 @@
       <li><a class="footer-rs-logo" href="https://rs.school/js/"><img src="rs_school_js.svg" alt="rs school"></a></li>
     </ul>
   </footer>
+  <button onclick="topFunction()" id="ttt-btn" title="To the top"><img src="to_the_top.svg" alt="To the top"></button>
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("ttt-btn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
 </body>
 
 </html>

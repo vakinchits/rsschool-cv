@@ -170,3 +170,22 @@ footer {
 	padding: 5px;
 	border-radius: 5px;
 }
+
+/* TTT BUTTON */
+
+#ttt-btn {
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	border: none;
+	outline: none;
+	background-color: hsla(205, 35%, 15%, 0.5);
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#ttt-btn:hover {
+	background-color: hsla(205, 35%, 15%, 1);
+}
