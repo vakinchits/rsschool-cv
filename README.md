@@ -1,2 +1,3 @@
-# rsschool-cv
-RS School CV - Victor Akinchits
+https://vakinchits.github.io/rsschool-cv/cv
+
+https://vakinchits.github.io/rsschool-cv/
